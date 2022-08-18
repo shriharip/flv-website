@@ -1,0 +1,80 @@
+---
+import { Container, FeatureCard } from '@odyssey-theme/components';
+import Layout from '../layouts/Page.astro';
+import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
+---
+
+<Layout>
+	<HomeHeroSection />
+	<Container>
+		<section id='ourWork' class="feature-card__section">
+			<h2>Our Work</h2>
+			<p>
+				We work with passionate people like us who want results for the efforts that are put in.
+			</p>
+			<div class="feature-card__grid">
+				<FeatureCard
+					href="/our-work/landing-1"
+					imgSrc="https://global-uploads.webflow.com/60df771ae56c34b…6/62fac0dc13101c6bd758f6fd_ezgif-4-e8a1dcb4a8.gif"
+					title="Overlapp"
+				/>
+				<FeatureCard
+					href="/landing-pages/landing-2"
+					imgSrc="/assets/images/home/screenshots/landing-2.png"
+					title="Ungana"
+				/>
+				<FeatureCard
+					href="/landing-pages/landing-2"
+					imgSrc="/assets/images/home/screenshots/landing-2.png"
+					title="Instigate-AI"
+				/>
+				<FeatureCard
+					href="/landing-pages/landing-2"
+					imgSrc="/assets/images/home/screenshots/landing-2.png"
+					title="Strapt-one"
+				/>
+
+			</div>
+		</section>
+			<section id='ourWork' class="feature-card__section">
+			<h2>OpenSource</h2>
+			<p>
+				We contribute back to the open source community.
+				</p>
+				<p>Some of the repos we contribute to.</p>
+			<div class="feature-card__grid">
+				<FeatureCard
+					href="https://github.com/flutter"
+					imgSrc="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg"
+				/>
+				<FeatureCard
+					href="https://github.com/Milad-Akarie/auto_route_library"
+					imgSrc="https://raw.githubusercontent.com/Milad-Akarie/auto_route_library/master/art/auto_route_logo.svg"
+					title=""
+				/>
+				<FeatureCard
+					href="https://github.com"
+					imgSrc="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+					title="and more..."
+				/>
+				</div>
+		</section>
+	</Container>
+
+</Layout>
+
+<style>
+	.feature-card__section {
+		margin: var(--section-margin) auto;
+	}
+	.feature-card__grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: var(--theme-grid-gap);
+	}
+	@media (max-width: 768px) {
+		.feature-card__grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

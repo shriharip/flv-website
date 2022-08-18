@@ -1,0 +1,120 @@
+---
+import {
+  AnnouncementBar,
+	Button,
+	CustomerQuoteSection,
+	ThreeColumnTextSection,
+	YouTubeEmbedSection,
+  StickyTextImageSection,
+  CtaCardSection
+} from '@odyssey-theme/components';
+import Layout from '../../layouts/Page.astro';
+import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
+
+const seo = {
+	title: 'Overlapp work | FlutterVeda case study',
+	description: 'Soical Networking Mobile App | built by FlutterVeda',
+};
+---
+
+<!-- <AnnouncementBar text="Read Our Latest Blog Post" href="/blog/posts/remote-work-mental-health/" slot="announcement-bar"/> -->
+<Layout seo={seo} >
+		<div slot="text-container">
+			<h1>Let's Overlapp</h1>
+			<p>Overlapp is a new type of social networking that’s about bonding over things we like, dislike and want to do.</p>
+		</div>
+		<div slot="btns-container">
+			<Button href="https://letsoverlapp.com" materialIcon="chevron_right"
+				>Read more</Button
+			>
+		</div>
+		<picture slot="image-container">
+			<img
+				src="https://global-uploads.webflow.com/60df771ae56c34b…6/62fac0dc13101c6bd758f6fd_ezgif-4-e8a1dcb4a8.gif"
+				alt="overlapp app slider"
+				id="home-hero-image"
+			/>
+		</picture>
+	</TextAndImageHero>
+
+	<!-- <CustomerQuoteSection
+		quoteText="Read more about overlapp at"
+		customerName="Happy Customer"
+	/> -->
+
+	<!-- <ThreeColumnTextSection>
+		<div slot="column-1-body">
+			<h2>Why?</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+				tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+				consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+				mollitia cumque. Velit.
+			</p>
+		</div>
+		<Button slot="column-1-cta">Learn More</Button>
+		<div slot="column-2-body">
+			<h2>How?</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+				tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+				consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+				mollitia cumque. Velit.
+			</p>
+		</div>
+		<Button slot="column-2-cta" outlined>Learn More</Button>
+		<div slot="column-3-body">
+			<h2>What?</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+				tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+				consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+				mollitia cumque. Velit.
+			</p>
+		</div>
+		<Button slot="column-3-cta">Learn More</Button>
+	</ThreeColumnTextSection> -->
+
+	<!-- <YouTubeEmbedSection url="https://youtu.be/dsTXcSeAZq8" rounded />
+
+  <StickyTextImageSection>
+    <div slot="text-container">
+      <h2>Features</h2>
+      <h3>SEO</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+        tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+        consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+        mollitia cumque. Velit.
+      </p>
+      <h3>Responsive</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+        tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+        consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+        mollitia cumque. Velit.
+      </p>
+      <h3>Themeable</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+        tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+        consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+        mollitia cumque. Velit.
+      </p>
+    </div>
+     <picture slot="image-container">
+      <img
+        src="/assets/images/landing-1/landing-sticky.jpg"
+        alt="Astro Odyssey"
+      />
+    </picture>
+  </StickyTextImageSection> -->
+
+  <CtaCardSection background="var(--theme-surface-2)" color="var(--theme-on-surface-2)">
+    <h2>Start Your App development Today</h2>
+    <p>It only takes a call to get started.</p>
+    <Button href="/company/cta_contact" materialIcon="chevron_right">Get Started</Button>
+  </CtaCardSection>
+
+</Layout>
+

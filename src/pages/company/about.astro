@@ -1,0 +1,34 @@
+---
+import { TextSection } from '@odyssey-theme/components';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'About | Astro Odyssey Theme',
+	description: 'About Page',
+};
+---
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h1>About FlutterVeda</h1>
+			<p>
+				Based out of the lovely city Copenhagen, Denmark and a small dev team in royal city Mysore, India, we strive for our clients happiness with our engagement.
+			</p>
+		</div>
+    <picture slot="image-container">
+      <img
+        src="/assets/images/home/classic-hero.jpg"
+        alt="Astro Odyssee"
+        id="home-hero-image"
+      />
+    </picture>
+	</HeroSection>
+  <TextSection narrow>
+    <p>
+      Shrihari, comes with more than 20 years of experience in  building startups across Americas, Europe and India. 
+    </p>
+    <p>Abhishek is an experienced Flutter developer who has actively worked with some large and medium size customers and also contributed ot open source projects.</p>
+    </TextSection>
+</Layout>
