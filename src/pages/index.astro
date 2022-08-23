@@ -12,28 +12,10 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 			<p>
 				We work with passionate people like us who want results for the efforts that are put in.
 			</p>
-			<div class="feature-card__grid">
-				<FeatureCard
-					href="/our-work/landing-1"
-					imgSrc="/assets/images/logo.jpg"
-					title="Overlapp"
-				/>
-				<FeatureCard
-					href="/landing-pages/landing-2"
-					imgSrc="/assets/images/home/screenshots/landing-2.png"
-					title="Ungana"
-				/>
-				<FeatureCard
-					href="/landing-pages/landing-2"
-					imgSrc="/assets/images/home/screenshots/landing-2.png"
-					title="Instigate-AI"
-				/>
-				<FeatureCard
-					href="/landing-pages/landing-2"
-					imgSrc="/assets/images/home/screenshots/landing-2.png"
-					title="Strapt-one"
-				/>
-
+			<div  class="feature-card__grid">
+			<img src="/assets/images/logo.jpg" alt="overlappLogo" class="avatar">
+			<img src="/assets/images/logo192.png" alt="unganaLogo" class="avatar">
+			<img src="/assets/images/instigate_logo.svg" alt="InstigateLogo" class="avatar">
 			</div>
 		</section>
 			<section id='ourWork' class="feature-card__section">
@@ -43,20 +25,9 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 				</p>
 				<p>Some of the repos we contribute to.</p>
 			<div class="feature-card__grid">
-				<FeatureCard
-					href="https://github.com/flutter"
-					imgSrc="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg"
-				/>
-				<FeatureCard
-					href="https://github.com/Milad-Akarie/auto_route_library"
-					imgSrc="https://raw.githubusercontent.com/Milad-Akarie/auto_route_library/master/art/auto_route_logo.svg"
-					title=""
-				/>
-				<FeatureCard
-					href="https://github.com"
-					imgSrc="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-					title="and more..."
-				/>
+			<img style={{background: 'black'}} src="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg" alt="Avatar" class="avatar">
+			<img src="https://raw.githubusercontent.com/Milad-Akarie/auto_route_library/master/art/auto_route_logo.svg" alt="Avatar" class="avatar">
+			<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Avatar" class="avatar">
 				</div>
 		</section>
 	</Container>
@@ -64,12 +35,18 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 </Layout>
 
 <style>
+
+	.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 	.feature-card__section {
 		margin: var(--section-margin) auto;
 	}
 	.feature-card__grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		display: flex;
+		justify-content: space-evenly;
 		gap: var(--theme-grid-gap);
 	}
 	@media (max-width: 768px) {

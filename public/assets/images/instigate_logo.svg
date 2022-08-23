@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="426px" viewBox="0 0 430 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="94.4793488%" y1="6.11397059%" x2="4.792213%" y2="92.8382353%" id="linearGradient-1">
+            <stop stop-color="#FFD823" offset="0%"></stop>
+            <stop stop-color="#FAB12E" offset="36.0873664%"></stop>
+            <stop stop-color="#F8A532" offset="47.3758277%"></stop>
+            <stop stop-color="#F8A532" offset="47.4883174%"></stop>
+            <stop stop-color="#F8A432" offset="47.8469393%"></stop>
+            <stop stop-color="#F8A233" offset="49.7567698%"></stop>
+            <stop stop-color="#EF6C43" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="429" height="425" rx="73"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <use id="Rectangle-1" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <path d="M136.000001,349 L136.000001,319.286705 C136.000001,313.76703 140.481585,309.29245 145.994843,309.29245 L178.630005,309.29245 L178.630004,177.881538 L136,177.881538 L136.000001,151.995009 C136.000001,146.474918 140.477066,142 145.999947,142 L283.000055,142 C288.522873,142 293.000001,146.471872 293.000001,151.995009 L293,177.881538 L248.445373,177.881538 L248.445374,309.29245 L283.001073,309.29245 C288.523328,309.29245 293.000001,313.770224 293.000001,319.286705 L293.000001,349 L136.000001,349 Z" id="I" fill="#FFFFFF"></path>
+            <g id="eye" transform="translate(177.000000, 41.000000)">
+                <path d="M40,80 C47.8677774,80 55.9445266,77.9765207 61.9722633,73.4882603 C68,69 71.5164805,65.2420229 74,59 C85,61 100,62 101,59 C101,57 84,52 80,40 C80,17.90861 62.09139,0 40,0 C17.90861,0 0,17.90861 0,40 C0,62.09139 17.90861,80 40,80 Z" id="Oval-1" fill="#FFFFFF"></path>
+                <ellipse id="Oval-2" fill="#353434" cx="40" cy="40" rx="15" ry="15"></ellipse>
+                <ellipse id="Oval-3" fill="#F9F8F8" transform="translate(45.500000, 34.000000) rotate(32.000000) translate(-45.500000, -34.000000) " cx="45.5" cy="34" rx="3.5" ry="4"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
