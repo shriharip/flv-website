@@ -9,6 +9,6 @@ export const nav = [
 	},
 	{
 		title: 'Our Work',
-		slug: '/our-work/landing-1',
+		slug: '/#ourWork',
 	},
 ];

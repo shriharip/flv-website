@@ -1,24 +1,28 @@
-import { twitterIcon, youtubeIcon, githubIcon, instagramIcon } from "../icons/icons";
-
+import {
+	twitterIcon,
+	youtubeIcon,
+	githubIcon,
+	instagramIcon,
+} from '../icons/icons';
 
 export const footerSocials = [
-  {
-    url: 'https://instagram.com/',
-    icon: instagramIcon,
-  },
-  {
-    url: 'https://youtube.com/',
-    icon: youtubeIcon,
-  },
-  {
-    url: 'https://twitter.com/littlesticksdev',
-    icon: twitterIcon,
-  },
-  {
-    url: 'https://github.com/littlesticksdev/odyssey-theme',
-    icon: githubIcon,
-  },
-]
+	{
+		url: 'https://instagram.com/',
+		icon: instagramIcon,
+	},
+	{
+		url: 'https://youtube.com/',
+		icon: youtubeIcon,
+	},
+	{
+		url: 'https://twitter.com/littlesticksdev',
+		icon: twitterIcon,
+	},
+	{
+		url: 'https://github.com/littlesticksdev/odyssey-theme',
+		icon: githubIcon,
+	},
+];
 
 export const footerLists = [
 	{
@@ -41,10 +45,10 @@ export const footerLists = [
 				title: 'About',
 				slug: '/company/about',
 			},
-			{
-				title: 'Blog',
-				slug: '/blog',
-			},
+			// {
+			// 	title: 'Blog',
+			// 	slug: '/blog',
+			// },
 			{
 				title: 'Contact',
 				slug: '/company/contact',
